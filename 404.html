@@ -9,7 +9,7 @@
   // Any address that misses a project lands here; send it to the correctly-cased project,
   // keeping the rest of the path, the query string and the #hash.
   (function () {
-    var projects = ["VaultBook", "ledgerline", "statement-studio8.13", "2qbo", "QBO-V3.0", "qboai", "hms", "acc692"];
+    var projects = ["VaultBook", "pdf", "ledgerline", "statement-studio8.13", "2qbo", "QBO-V3.0", "qboai", "hms", "acc692"];
     var parts = location.pathname.split("/");
     var first = decodeURIComponent(parts[1] || "");
     for (var i = 0; i < projects.length; i++) {
